@@ -1,0 +1,115 @@
+.main-grid {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    height: 711px;
+    width: 74.5rem;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0 12px 14px 0 rgba(208,218,227,0.6);
+}
+
+.grid-header-name {
+    padding-left: 1rem;
+    /* padding-right: 2.5rem; */
+    color: #2C3F58;
+    font-family: "SF Pro Rounded";
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0;
+}
+
+.grid-header {
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    align-items: center;
+    background-color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.tab-label {
+    display: 'flex'; 
+    flex-direction: 'row';
+    color: #2C3F58;
+    font-family: "SF Pro Rounded";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0; 
+    text-transform: capitalize;
+}
+
+.number-indicator {
+    padding: 5px;
+    margin-left: 10px;
+    opacity: 0.6;
+    border-radius: 6px;
+    background-color: #D7E1EA;
+}
+
+.search-box {
+    margin-left: 2.3rem;
+    
+}
+
+.search-box-more-icon {
+    margin-left: 1.3rem;
+    color:#72809D;
+}
+
+.MuiTabs-flexContainer {
+    display: flex;
+    padding-top: 0.5rem;
+}
+
+.MuiTabs-root {
+    display: flex;
+    overflow: hidden;
+    padding-top: 0.5rem;
+    min-height: 5rem !important;
+}
+
+.MuiPaper-elevation4 {
+    border-bottom: 1px solid rgba(44,63,88,0.2);
+    box-shadow: none !important
+}
+
+.search-box .MuiOutlinedInput-adornedEnd {
+    padding-right: 14px;
+    height: 2.3rem !important;
+}
+
+.alert-grid {
+    display: flex;
+    position: absolute;
+    right: 0.7rem;
+    margin-top: 2rem;
+    margin-left: 1.7rem;
+    margin-bottom: 2rem;
+    height: 60.4rem;
+    width: 17rem;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0 12px 14px 0 rgb(208 218 227 / 60%);
+}
+
+.alert-main {
+    display: flex;
+    align-items: center;
+    color: #2C3F58;
+    font-family: "SF Pro Rounded";
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.4rem;
+    border-bottom: 1px solid rgba(44,63,88,0.3);
+    /* opacity: 0.5; */
+  
+}
+
+.alert-more-icon {
+    margin-left: 8.9rem;
+    color: #72809D;
+}

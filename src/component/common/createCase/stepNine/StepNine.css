@@ -1,0 +1,232 @@
+.root {
+    display: "flex"
+  }
+  .appBar {
+    z-index: 4;
+  }
+  .drawer {
+    width: 10rem;
+    flex: 0;
+    background: #232E63;
+  }
+  .drawerPaper {
+    width: 5rem;
+    background: #232E63;
+
+  }
+  .drawerContainer {
+    background: #232E63;
+    overflow: "auto";
+    height: 100% !important;
+    border-top: 1px Solid;
+    border-top-color: #4B5794;
+  }
+  .content {
+    flex: 1;
+    padding: 10
+  }
+
+  .logo {
+    margin-left: -2rem;
+    width: 5.5rem;
+    height: 4rem;
+    padding-left: 30px;
+    background: #232E63;
+    padding-right: 25px;
+    color:white;
+  }
+  
+  .MuiAppBar-colorPrimary{
+    background: white !important;
+
+  }
+
+  .createNewCase {
+    height: 29px;
+    /* width: 204px; */
+    color: #2C3F58;
+    /* font-family: S; */
+    font-size: 24px;
+    margin-left: 100px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 29px;
+  }
+
+  .backArrow {
+    display: flex;
+    height: 24px;
+    /* width: 39px; */
+    color: #43A1F6;
+    margin-top: 0.2rem;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+
+  .titleHeader {
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+
+  }
+
+  .titleHeaderRight {
+    margin-top: 0.2rem;
+    display: inline-block;
+    /* justify-content: flex-end; */
+    margin-right: 10rem;
+    height: 24px;
+    width: 116px;
+    color: #43A1F6;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+
+  .container-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100rem !important;
+  }
+
+  .headerText {
+    margin-left: 1rem;
+  }
+
+  .verticleLine {
+    position: absolute;
+    margin-top: -1.3rem;
+    margin-left:-3.5rem;
+    height: 64px;
+    width: 1px;
+    border: 1px solid #D2E3E9;
+  }
+
+  .MuiPaper-elevation4 {
+    box-shadow: none;
+  }
+
+  .createCaseContainer {
+    flex-direction: column;
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 4rem;
+    align-items: flex-start;
+  }
+
+  .uploadCasePhoto {
+    display: flex;
+    flex-direction: row;
+    /* padding-top: 2.5rem;
+    padding-left: 2.1rem; */
+    width: auto;
+    height: 152px;
+    border-top: 1px Solid #D2E3E9;
+    border-bottom: 1px Solid #D2E3E9;
+  }
+
+  .insideText {
+    opacity: 0.2;
+    width: 22rem;
+    color: #2C3F58;
+    padding-top: 2.5rem;
+    /* padding-left: 2.1rem; */
+    margin-top: 1.2rem;
+    margin-left: 5.5rem;
+  }
+
+  .verticleLineCustomer {
+    border-right: 1px Solid #D2E3E9;
+    margin-left: 10rem;
+  }
+
+  .tableCase {
+    width:100%;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    padding-right: 16.5rem;
+  }
+
+  .createCaseBody {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding-left: 5rem;
+
+  }
+
+  .roadMapStepOne {
+    width:350px;
+    height: 1500px;
+    border-right: 1px Solid #D2E3E9;
+  }
+
+  .formContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 3rem;
+    /* margin-left: -128px; */
+    margin-top: 3rem;
+    /* width: 73rem; */
+    height: 1500px;
+  }
+
+  .addPolicyDetailsHeader {
+    display: flex;
+    /* flex:1; */
+    /* flex-direction: column; */
+  }
+
+  .heading{
+
+    display: flex;
+    height: 29px;
+    width: 250px;
+    color: #2C3F58;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 29px;
+
+  }
+
+  .subHeading {
+    height: 24px;
+    width: 240px;
+    color: #72809D;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+
+  .addPolicyDetailsBody {
+    display: flex;
+    margin-left: -4rem;
+    margin-top: 2rem;
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
+
+  }
+
+  .inputItem {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-fields1 {
+    padding-left:4rem;
+    padding-top:1rem;
+  }
+
+  .input-fields2 {
+    padding-left:1rem;
+    padding-top:1rem;
+  }
+
+  

@@ -1,0 +1,27 @@
+td {
+    border: 0px;
+}
+
+.MTableToolbar-searchField-20 {
+    min-width: 150px;
+    padding-left: 16px;
+    margin-bottom: 64px;
+    display: none;
+}
+
+.MuiTableCell-alignLeft {
+    border-left: none;
+    border-right: none;
+    text-align: left;
+}
+.MuiBox-root {
+    padding: 0px !important;
+}
+
+.MuiTableSortLabel-root {
+    color: #72809D;
+    opacity: 0.8;
+    font-family: "SF Pro Rounded";
+    font-size: 14px;
+
+}

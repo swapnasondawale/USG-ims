@@ -1,0 +1,35 @@
+.container {
+    background-color: #ffff;
+    margin-top: 25px;
+    padding: 25px;
+    &-newPurpose {
+        padding-left: 50px !important;
+    }
+    &-cardList {
+        padding-right: 50px !important;
+    }
+    &-purposeOption {
+        padding-left: 50px !important;
+        &-purpose {
+            padding-bottom: 15px;
+        }
+    }
+    &-visitPurpose {
+        padding-bottom: 25px;
+    }
+    &-smallcards {
+        background: #ebebeb;
+        display: flex;
+        justify-content: space-between;
+        padding: 8px;
+        margin-bottom: 15px;
+    }
+    &-editCheckIcon{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.MuiInputBase-root {
+    height: 50px !important;
+    width: 200px !important;
+}

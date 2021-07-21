@@ -1,0 +1,13 @@
+.my-case-volume-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 14rem;
+    width: 24.15rem;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin-top: 0rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 12px 14px 0 rgb(208 218 227 / 60%);
+}

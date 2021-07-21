@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="370px" height="420px" viewBox="0 0 370 420" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>52667DA8-B5A2-4BD0-95C6-0E4AA1972700</title>
+    <defs>
+        <path d="M34.6124502,-1.39838442e-15 L287.38755,-4.15283863e-16 C299.423053,2.41291884e-16 303.787417,1.25314575 308.187417,3.6062915 C312.587417,5.95943725 316.040563,9.412583 318.393708,13.812583 C320.746854,18.212583 322,22.5769472 322,34.6124502 L322,287.38755 C322,299.423053 320.746854,303.787417 318.393708,308.187417 C316.040563,312.587417 312.587417,316.040563 308.187417,318.393708 C303.787417,320.746854 299.423053,322 287.38755,322 L34.6124502,322 C22.5769472,322 18.212583,320.746854 13.812583,318.393708 C9.412583,316.040563 5.95943725,312.587417 3.6062915,308.187417 C1.25314575,303.787417 5.41667744e-16,299.423053 -9.32256277e-16,287.38755 L-8.81412002e-16,34.6124502 C5.12125756e-16,22.5769472 1.25314575,18.212583 3.6062915,13.812583 C5.95943725,9.412583 9.412583,5.95943725 13.812583,3.6062915 C18.212583,1.25314575 22.5769472,8.12501616e-16 34.6124502,-1.39838442e-15 Z" id="path-1"></path>
+        <filter x="-22.2%" y="-15.1%" width="144.5%" height="160.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="13.5" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="74" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.6 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-3">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.752941 0 0 0 0 0.831373 0 0 0 0 0.890196 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <rect id="path-4" x="0" y="0" width="270.558196" height="157.386228"></rect>
+        <filter color-interpolation-filters="auto" id="filter-6">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.752941 0 0 0 0 0.831373 0 0 0 0 0.890196 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-7">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.752941 0 0 0 0 0.831373 0 0 0 0 0.890196 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-8">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.752941 0 0 0 0 0.831373 0 0 0 0 0.890196 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-9">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.752941 0 0 0 0 0.831373 0 0 0 0 0.890196 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-10">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.752941 0 0 0 0 0.831373 0 0 0 0 0.890196 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-11">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.752941 0 0 0 0 0.831373 0 0 0 0 0.890196 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-12">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.752941 0 0 0 0 0.831373 0 0 0 0 0.890196 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-13">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.752941 0 0 0 0 0.831373 0 0 0 0 0.890196 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-14">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.752941 0 0 0 0 0.831373 0 0 0 0 0.890196 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-15">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.752941 0 0 0 0 0.831373 0 0 0 0 0.890196 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-16">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.752941 0 0 0 0 0.831373 0 0 0 0 0.890196 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-17">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.752941 0 0 0 0 0.831373 0 0 0 0 0.890196 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-18">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.752941 0 0 0 0 0.831373 0 0 0 0 0.890196 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-19">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.972549 0 0 0 0 0.772549 0 0 0 0 0.325490 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <rect id="path-20" x="0" y="0" width="611.360146" height="362.51042" rx="12.8604509"></rect>
+        <filter color-interpolation-filters="auto" id="filter-22">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.882353 0 0 0 0 0.909804 0 0 0 0 0.945098 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-23">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.752941 0 0 0 0 0.831373 0 0 0 0 0.890196 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-24">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.752941 0 0 0 0 0.831373 0 0 0 0 0.890196 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Aureate-Back-Office" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0200_-Inspector-Signup_Blank" transform="translate(-626.000000, -424.000000)">
+            <g id="Group-16" transform="translate(200.000000, 137.000000)">
+                <g id="Group-14" transform="translate(80.000000, 80.000000)">
+                    <g id="Block" transform="translate(370.000000, 207.000000)">
+                        <g id="Color:">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="Tile" transform="translate(25.720902, 25.720902)" filter="url(#filter-3)">
+                            <g transform="translate(0.000000, 0.000000)">
+                                <rect id="Color:" fill="#E1E8F1" x="0" y="0" width="38.5813528" height="7.71627057" rx="3.85813528"></rect>
+                            </g>
+                        </g>
+                        <g id="#07-Icon/Options-Large" transform="translate(270.558196, 35.366240)" fill="#E1E8F1">
+                            <path d="M22.5057892,8.8817842e-16 C24.2814469,8.8817842e-16 25.7209019,1.439455 25.7209019,3.21511274 C25.7209019,4.99077047 24.2814469,6.43022547 22.5057892,6.43022547 C20.7301314,6.43022547 19.2906764,4.99077047 19.2906764,3.21511274 C19.2906764,1.439455 20.7301314,8.8817842e-16 22.5057892,8.8817842e-16 Z M12.8604509,8.8817842e-16 C14.6361087,8.8817842e-16 16.0755637,1.439455 16.0755637,3.21511274 C16.0755637,4.99077047 14.6361087,6.43022547 12.8604509,6.43022547 C11.0847932,6.43022547 9.64533821,4.99077047 9.64533821,3.21511274 C9.64533821,1.439455 11.0847932,8.8817842e-16 12.8604509,8.8817842e-16 Z M3.21511274,8.8817842e-16 C4.99077047,8.8817842e-16 6.43022547,1.439455 6.43022547,3.21511274 C6.43022547,4.99077047 4.99077047,6.43022547 3.21511274,6.43022547 C1.439455,6.43022547 1.77635684e-15,4.99077047 1.77635684e-15,3.21511274 C1.77635684e-15,1.439455 1.439455,8.8817842e-16 3.21511274,8.8817842e-16 Z" id="Color:"></path>
+                        </g>
+                        <g id="#06-Charts/Line-Charts" transform="translate(25.720902, 63.016210)">
+                            <mask id="mask-5" fill="white">
+                                <use xlink:href="#path-4"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <g id="System-Elements/Text/Medium-text" opacity="0.900000036" mask="url(#mask-5)">
+                                <g transform="translate(0.000000, 81.020841)" id="Tile" filter="url(#filter-6)">
+                                    <g transform="translate(0.000000, 0.000000)">
+                                        <rect id="Color:" fill="#E1E8F1" x="0" y="0" width="19.933699" height="7.71627057" rx="3.85813528"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="System-Elements/Text/Medium-text" opacity="0.900000036" mask="url(#mask-5)">
+                                <g transform="translate(0.000000, 108.027788)" id="Tile" filter="url(#filter-7)">
+                                    <g transform="translate(0.000000, 0.000000)">
+                                        <rect id="Color:" fill="#E1E8F1" x="0" y="0" width="19.933699" height="7.71627057" rx="3.85813528"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="System-Elements/Text/Medium-text" opacity="0.900000036" mask="url(#mask-5)">
+                                <g transform="translate(0.000000, 135.034735)" id="Tile" filter="url(#filter-8)">
+                                    <g transform="translate(0.000000, 0.000000)">
+                                        <rect id="Color:" fill="#E1E8F1" x="0" y="0" width="19.933699" height="7.71627057" rx="3.85813528"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="System-Elements/Text/Medium-text" opacity="0.900000036" mask="url(#mask-5)">
+                                <g transform="translate(0.000000, 162.041682)" id="Tile" filter="url(#filter-9)">
+                                    <g transform="translate(0.000000, 0.000000)">
+                                        <rect id="Color:" fill="#E1E8F1" x="0" y="0" width="19.933699" height="7.71627057" rx="3.85813528"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="System-Elements/Text/Medium-text" opacity="0.900000036" mask="url(#mask-5)">
+                                <g transform="translate(0.000000, 189.048629)" id="Tile" filter="url(#filter-10)">
+                                    <g transform="translate(0.000000, 0.000000)">
+                                        <rect id="Color:" fill="#E1E8F1" x="0" y="0" width="19.933699" height="7.71627057" rx="3.85813528"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="System-Elements/Text/Medium-text" opacity="0.900000036" mask="url(#mask-5)">
+                                <g transform="translate(0.000000, 216.055576)" id="Tile" filter="url(#filter-11)">
+                                    <g transform="translate(0.000000, 0.000000)">
+                                        <rect id="Color:" fill="#E1E8F1" x="0" y="0" width="19.933699" height="7.71627057" rx="3.85813528"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="System-Elements/Text/Medium-text" opacity="0.900000036" mask="url(#mask-5)">
+                                <g transform="translate(0.000000, 243.062523)" id="Tile" filter="url(#filter-12)">
+                                    <g transform="translate(0.000000, 0.000000)">
+                                        <rect id="Color:" fill="#E1E8F1" x="0" y="0" width="19.933699" height="7.71627057" rx="3.85813528"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="System-Elements/Text/Medium-text" opacity="0.900000036" mask="url(#mask-5)">
+                                <g transform="translate(52.084826, 149.669957)" id="Tile" filter="url(#filter-13)">
+                                    <g transform="translate(0.000000, 0.000000)">
+                                        <rect id="Color:" fill="#E1E8F1" x="0" y="0" width="38.5813528" height="7.71627057" rx="3.85813528"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="System-Elements/Text/Medium-text" opacity="0.900000036" mask="url(#mask-5)">
+                                <g transform="translate(142.107983, 149.669957)" id="Tile" filter="url(#filter-14)">
+                                    <g transform="translate(0.000000, 0.000000)">
+                                        <rect id="Color:" fill="#E1E8F1" x="0" y="0" width="38.5813528" height="7.71627057" rx="3.85813528"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="System-Elements/Text/Medium-text" opacity="0.900000036" mask="url(#mask-5)">
+                                <g transform="translate(232.131140, 149.669957)" id="Tile" filter="url(#filter-15)">
+                                    <g transform="translate(0.000000, 0.000000)">
+                                        <rect id="Color:" fill="#E1E8F1" x="0" y="0" width="38.5813528" height="7.71627057" rx="3.85813528"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="System-Elements/Text/Medium-text" opacity="0.900000036" mask="url(#mask-5)">
+                                <g transform="translate(0.000000, 54.013894)" id="Tile" filter="url(#filter-16)">
+                                    <g>
+                                        <rect id="Color:" fill="#E1E8F1" x="0" y="0" width="19.933699" height="7.71627057" rx="3.85813528"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="System-Elements/Text/Medium-text" opacity="0.900000036" mask="url(#mask-5)">
+                                <g transform="translate(0.000000, 27.006947)" id="Tile" filter="url(#filter-17)">
+                                    <g>
+                                        <rect id="Color:" fill="#E1E8F1" x="0" y="0" width="19.933699" height="7.71627057" rx="3.85813528"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="01" opacity="0.900000036" mask="url(#mask-5)">
+                                <g filter="url(#filter-18)" id="Tile">
+                                    <g>
+                                        <rect id="Color:" fill="#E1E8F1" x="0" y="0" width="19.933699" height="7.71627057" rx="3.85813528"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                            <g filter="url(#filter-19)" id="Tint:">
+                                <g mask="url(#mask-5)">
+                                    <g transform="translate(32.794150, -5.144180)">
+                                        <g id="Rectangle-2" opacity="0.200000003" stroke-width="1" fill="none" transform="translate(0.000000, 5.144180)">
+                                            <mask id="mask-21" fill="white">
+                                                <use xlink:href="#path-20"></use>
+                                            </mask>
+                                            <use id="Rectangle" fill="#C0D4E3" xlink:href="#path-20"></use>
+                                        </g>
+                                        <path d="M610.87142,262.325051 L610.87142,725.175137 L0,725.175137 L0,144.39328 L30.2506701,117.226112 C44.4563067,104.46848 65.7027253,103.54353 80.9633077,115.018368 C95.3522011,125.83776 115.787554,122.944107 126.606946,108.555214 C126.65955,108.485255 126.711872,108.415085 126.76391,108.344704 L144.594565,84.229413 C156.618596,67.9673624 179.548995,64.5317686 195.811046,76.5557994 C200.900767,80.3190983 204.928087,85.3374513 207.500097,91.1212599 L228.308582,137.91436 C235.045553,153.064129 252.788262,159.88405 267.938032,153.147079 C269.459888,152.470323 270.922786,151.668093 272.311582,150.748696 C289.931953,139.083822 313.075019,140.161563 329.535047,153.413516 L330.191831,153.942292 C344.44171,165.414856 365.293871,163.163397 376.766435,148.913517 C377.404222,148.121331 378.005188,147.300193 378.567422,146.452713 L399.785284,114.470065 C410.060605,98.9816055 430.931272,94.7280158 446.448553,104.95976 C460.840017,114.449166 480.199287,110.475264 489.688693,96.0837997 C490.115021,95.4372392 490.517136,94.7750354 490.894206,94.0985633 L509.82486,60.1364605 C520.193066,41.535621 543.677118,34.8617527 562.277957,45.2299587 C568.488754,48.6918895 573.621332,53.8037711 577.10833,60.0005292 L602.608331,105.316689 C608.025608,114.943755 610.87142,125.804072 610.87142,136.850668 L610.87142,262.325051 L610.87142,262.325051 Z" id="Tint:" fill="#BDE4F1" opacity="0.5"></path>
+                                        <path d="M610.87142,238.687239 L610.87142,531.62535 L0,531.62535 L0,184.124186 L17.9056321,161.227694 C28.2596923,147.987634 47.3865061,145.648069 60.6265663,156.002129 C61.93878,157.028313 63.164524,158.160504 64.2914455,159.387291 C74.8171265,170.845737 92.6387827,171.601892 104.097229,161.076211 C105.757155,159.55141 107.228094,157.832913 108.478496,155.957581 L116.134407,144.475372 C123.653197,133.198816 138.889834,130.152544 150.16639,137.671333 C153.342633,139.789134 155.980995,142.618746 157.871705,145.935192 L165.20547,158.799161 C172.013958,170.741755 187.214713,174.903771 199.157308,168.095283 C199.171777,168.087034 199.186238,168.078771 199.20069,168.070493 C212.416704,160.500834 228.811614,161.224835 241.308931,169.929997 L241.541106,170.091722 C253.122188,178.158669 268.999569,175.692243 277.58767,164.492171 L291.662114,146.137152 C299.904465,135.387987 314.819362,132.378554 326.584934,139.090646 C338.101445,145.660653 352.745154,142.076839 359.925985,130.930957 L373.525057,109.822864 C381.720758,97.1017306 398.677202,93.4331422 411.398335,101.628843 C414.954002,103.919612 417.931054,107.002459 420.096313,110.635921 L429.579448,126.54931 C435.087926,135.792937 447.046872,138.820873 456.290499,133.312395 C457.814479,132.404222 459.207282,131.292161 460.430296,130.007042 C467.834909,122.226422 480.144973,121.921608 487.925593,129.326221 C489.216655,130.554892 490.332697,131.955201 491.24238,133.48783 L503.984468,154.955625 C511.506037,167.627921 527.876399,171.803409 540.548694,164.28184 C542.787101,162.953247 544.819052,161.304262 546.579974,159.387291 C554.844951,150.389888 568.838875,149.79614 577.836277,158.061117 C580.378411,160.396309 582.338782,163.294012 583.560584,166.522443 L610.87142,238.687239 L610.87142,238.687239 Z" id="Tint:" fill="#5139ED"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Tint:" transform="translate(25.720902, 258.983790)" filter="url(#filter-22)">
+                            <g transform="translate(0.000000, 0.000000)">
+                                <g id="Tile" transform="translate(0.000000, 16.718586)" filter="url(#filter-23)">
+                                    <g transform="translate(0.000000, 0.000000)">
+                                        <rect id="Color:" fill="#E1E8F1" x="0" y="0" width="142.213967" height="7.71627057" rx="3.85813528"></rect>
+                                    </g>
+                                </g>
+                                <g id="Tile" filter="url(#filter-24)">
+                                    <g>
+                                        <rect id="Color:" fill="#E1E8F1" x="0" y="0" width="177.767459" height="7.71627057" rx="3.85813528"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="#07-Icon/Icon-Large" transform="translate(270.558196, 258.340768)" fill="#E1E8F1">
+                            <path d="M12.8602305,22.3283085 L7.19839641,24.8821485 C6.07116028,25.3906022 4.75169322,24.8742893 4.25128425,23.7289313 C4.09290422,23.3664241 4.03080884,22.9680665 4.07118873,22.5735727 L4.71200266,16.3131015 L0.571982848,11.6309903 C-0.252269485,10.6988109 -0.176733742,9.26419957 0.740696652,8.42669622 C1.03106447,8.1616254 1.38474217,7.97852052 1.76646989,7.89563618 L7.82434873,6.58029223 L10.9275098,1.13274831 C11.54533,0.0481760148 12.9114807,-0.322149591 13.9788928,0.305602918 C14.3167301,0.504287336 14.5974103,0.789479883 14.7929511,1.13274831 L17.8961122,6.58029223 L23.953991,7.89563618 C25.1600772,8.15751303 25.9288691,9.36325053 25.6711356,10.5887263 C25.5895627,10.9765908 25.4093549,11.3359544 25.1484781,11.6309903 L21.0084583,16.3131015 L21.6492722,22.5735727 C21.7768543,23.8199938 20.8858431,24.9355062 19.6591429,25.0651393 C19.2708908,25.1061684 18.8788361,25.0430747 18.5220645,24.8821485 L12.8602305,22.3283085 Z" id="Color:"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,60 @@
+@import "../../../../assets/css/icomoon.css";
+
+.container {
+    &-newUser {
+        padding: 15px 0 15px 0;
+    }
+}
+
+[class^="makeStyles-root-"] {
+    background-color: transparent !important;
+    .MuiBox-root {
+        padding: 0 !important;
+        .searchContainerTab {
+            min-height: 50px;
+            max-height: 70px;
+            display: flex;
+            padding: 15px;
+            input {
+                border: 1px solid #ccc;
+                padding: 7px 10px 7px 30px;
+                max-width: 400px;
+            }
+            &:before {
+                content: "\e986";
+                font-family: "icomoon";
+                color: #ccc;
+                position: absolute;
+                top: 24px;
+                left: 40px;
+            }
+        }
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            background: #fff;
+            padding: 15px;
+            margin-bottom: 25px;
+            .thumb {
+                width: 70px;
+                height: 70px;
+                border-radius: 50px;
+                background: #e5e5e5;
+                float: left;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .info {
+                float: left;
+                margin-left: 15px;
+            }
+        }
+    }
+}
+.react-swipeable-view-container div {
+    overflow: unset !important;
+}
+.user-internal {
+    display: flex;
+}

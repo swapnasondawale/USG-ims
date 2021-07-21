@@ -1,0 +1,9 @@
+.line {
+    fill: none;
+    stroke:steelblue;
+    stroke-width: 3px;
+  }
+  .focus circle {
+    fill: none;
+    stroke: skyblue;
+  }

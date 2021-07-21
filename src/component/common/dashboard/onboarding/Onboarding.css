@@ -1,0 +1,80 @@
+.onboarding-cases-card2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 4.5rem;
+    width: 17rem;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin-top: 2rem;
+    box-shadow: 0 12px 14px 0 rgb(208 218 227 / 60%);
+}
+
+.onboarding-cases-lable {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    color: #72809D;
+    font-family: 'SF Pro Rounded';
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.onboarding-cases-number {
+    padding-left: 1rem;
+    padding-top: 0.2rem;
+    color: #233843;
+  font-family: 'SF Pro Rounded';
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+
+.all-cases-range {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1rem;
+    /* padding-top: 2rem; */
+}
+
+.all-cases-range-blue {
+    margin-left: 0.2rem;
+    height: 6px;
+    border-radius: 0 2px 2px 0;
+}
+
+.all-cases-bullets {
+    display: flex;
+    padding-top: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1rem;
+}
+
+.all-cases-bullets-open {
+    display: flex;
+    padding-left: 1rem;
+    align-items: center;
+    color: #72809D;
+    font-family: 'SF Pro Rounded';
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+.view-button {
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    align-self: stretch;
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+    color: #23282e;
+    font-family: 'SF Pro Rounded';
+    font-size: 14px;
+    font-weight: 500;
+}

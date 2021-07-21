@@ -1,0 +1,6 @@
+.card-carousel {
+    display: grid;
+    /* flex-direction: row; */
+    /* overflow-x: scroll; */
+    /* overflow-y: hidden; */
+}

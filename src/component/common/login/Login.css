@@ -1,0 +1,390 @@
+.page-container {
+    padding: 10rem;
+    /* background-image: url('../../../assets/images/background.png');
+    height: auto;
+    width: 100%; */
+    position: relative;
+}
+
+.login-card {
+    margin-top: -35rem;
+    margin-left: 30rem;
+    min-width: 50%;
+    height: 40rem !important;
+    position: absolute;
+    border: 1px solid;
+    border-radius: 22px;
+    border-color: black;
+    background: white;
+    left: 40rem;
+    top: 4rem;
+}
+
+.login-carousel-card {
+    max-width: 80%;
+    height: auto;
+    border: 1px solid;
+    border-radius: 22px;
+    border-color: black;
+    background: rgba(0,0,0,0.2);
+    position: relative;
+}
+
+.card-carousel {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    /* padding-top: 5rem; */
+    overflow-y: hidden;
+}
+
+.title {
+    height: 43px;
+    width: 164px;
+    color: #2C376A;
+    font-family: "SF Pro Rounded";
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 43px;
+    /* padding-top: 4rem; */
+    padding-left: 4rem;
+}
+
+.normal-text {
+    color: #72809D;
+    font-family: "SF Pro Rounded";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 24px;
+    padding-top: 2rem;
+}
+
+.login-header {
+    display: flex;
+    padding-top: 5rem;
+    justify-content: space-between;
+}
+
+.login-body {
+    width: 90%;
+    align-items: flex-start;
+    display: flex;
+    padding-left: 4rem;
+    /* padding-top: 2rem; */
+    flex-direction: column;
+}
+
+.input-fields {
+    padding-top: 3rem;
+    width: 100%;
+}
+
+.login-footer {
+    position: absolute;
+    padding-top: 5rem;
+    padding-left: 25rem;
+}
+
+.button-shadow {
+    display: flex;
+    height: 4.6rem;
+    width: 16.75rem;
+    margin-left: 33px;
+    background-color: #F8C553;
+    position: absolute;
+    border-radius: 12px;
+    z-index: 0;
+}
+
+.logo-login {
+    margin-top: 3rem;
+    margin-left: -30rem;    
+}
+
+.sphare-icon {
+    position: absolute;
+    z-index: -98;
+    margin-top: -11rem;
+    margin-left: -17rem;
+}
+
+.cube-icon {
+    position: absolute;
+    z-index: -97;
+    margin-top: -5rem;
+    margin-left: -44rem;
+}
+
+.card-images {
+    /* height: 22rem; */
+    /* width: 22rem;  */
+}
+.normal-text {
+    text-align: center;
+    padding-left: 0rem;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height:7px;
+}
+/* Track */
+::-webkit-scrollbar-track:horizontal {
+    background: none;
+    margin-left: 2rem;
+}
+/* Handle */
+::-webkit-scrollbar-thumb:horizontal{
+    background: white;
+    margin-left: 10px;
+    border-radius: 10px; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:horizontal:hover {
+background: white; 
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .login-carousel-card {
+        width: auto;
+        height: auto;
+        border: 1px solid;
+        padding: 0px;
+        border-radius: 22px;
+        border-color: black;
+        background: rgba(0,0,0,0.2);
+    }
+    .page-container {
+        padding: 10rem 0rem;
+        /* background-image: url('../../../assets/images/background.png');
+        height: auto;
+        width: 100%; */
+    }
+    .logo-login {
+        margin-top: 3rem;
+        margin-left: 0rem;    
+    }
+    .login-card {
+        margin-top: -35rem;
+        margin-left: 30rem;
+        min-width: 50%;
+        height: 40rem !important;
+        position: absolute;
+        border: 1px solid;
+        border-radius: 22px;
+        border-color: black;
+        background: white;
+        left: 12rem;
+        top: 0rem;
+    }
+    .login-header {
+        display: flex;
+        padding-top: 5rem;
+        justify-content: center;
+    }
+    .login-body {
+        width: 98%;
+        align-items: flex-start;
+        display: flex;
+        padding-left: 0rem;
+        /* padding-top: 2rem; */
+        flex-direction: column;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .logo-login {
+        margin-top: 3rem;
+        margin-left: -0rem;    
+    }
+    .login-header {
+        display: flex;
+        padding-top: 5rem;
+        justify-content: center;
+    }
+    .login-body {
+        width: 90%;
+        align-items: flex-start;
+        display: flex;
+        padding-left: 4rem;
+        /* padding-top: 2rem; */
+        flex-direction: column;
+    }
+    .normal-text {
+        text-align: center;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+
+    .page-container {
+        padding: 10rem;
+        /* background-image: url('../../../assets/images/background.png');
+        height: auto;
+        width: 100%; */
+        position: relative;
+    }
+    
+    .login-card {
+        margin-top: -35rem;
+        margin-left: 30rem;
+        min-width: 50%;
+        height: 40rem !important;
+        position: absolute;
+        border: 1px solid;
+        border-radius: 22px;
+        border-color: black;
+        background: white;
+        left: 20rem;
+        top: 0rem;
+    }
+    
+    .login-carousel-card {
+        max-width: 80%;
+        height: auto;
+        border: 1px solid;
+        border-radius: 22px;
+        border-color: black;
+        background: rgba(0,0,0,0.2);
+        position: relative;
+    }
+    .logo-login {
+        margin-top: 3rem;
+        margin-left: -5rem;    
+    }
+    .login-footer {
+        position: absolute;
+        padding-top: 2rem;
+        padding-left: 3rem;
+    }
+    .login-header {
+        display: flex;
+        padding-top: 5rem;
+        justify-content: center;
+    }
+    .login-body {
+        width: 96%;
+        align-items: flex-start;
+        display: flex;
+        padding-left: 0rem;
+        /* padding-top: 2rem; */
+        flex-direction: column;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .login-card {
+        margin-top: -35rem;
+        margin-left: 30rem;
+        min-width: 50%;
+        height: 40rem !important;
+        position: absolute;
+        border: 1px solid;
+        border-radius: 22px;
+        border-color: black;
+        background: white;
+        left: 30rem;
+        top: 0rem;
+    }
+    .login-footer {
+        position: absolute;
+        padding-top: 3rem;
+        padding-left: 10rem;
+    }
+    .logo-login {
+        margin-top: 3rem;
+        margin-left: -13rem;    
+    }
+    .login-header {
+        display: flex;
+        padding-top: 5rem;
+        justify-content: space-between;
+    }
+    .login-body {
+        width: 90%;
+        align-items: flex-start;
+        display: flex;
+        padding-left: 4rem;
+        /* padding-top: 2rem; */
+        flex-direction: column;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .login-carousel-card {
+        max-width: 80%;
+        height: auto;
+        border: 1px solid;
+        padding: 0px;
+        border-radius: 22px;
+        border-color: black;
+        background: rgba(0,0,0,0.2);
+    }
+    .login-card {
+        margin-top: -35rem;
+        margin-left: 30rem;
+        min-width: 50%;
+        height: 40rem !important;
+        position: absolute;
+        border: 1px solid;
+        border-radius: 22px;
+        border-color: black;
+        background: white;
+        left: 42rem;
+        top: 0rem;
+    }
+    .login-footer {
+        position: absolute;
+        padding-top: 5rem;
+        padding-left: 20rem;
+    }
+    .logo-login {
+        margin-top: 3rem;
+        margin-left: -26rem;
+    }
+  }
+  @media only screen and (min-width: 1500px) {
+    .login-carousel-card {
+        max-width: 80%;
+        height: auto;
+        border: 1px solid;
+        padding: 0px;
+        border-radius: 22px;
+        border-color: black;
+        background: rgba(0,0,0,0.2);
+    }
+    .login-card {
+        margin-top: -35rem;
+        margin-left: 30rem;
+        min-width: 50%;
+        height: 40rem !important;
+        position: absolute;
+        border: 1px solid;
+        border-radius: 22px;
+        border-color: black;
+        background: white;
+        left: 42rem;
+        top: 0rem;
+    }
+    .logo-login {
+        margin-top: 3rem;
+        margin-left: -60rem;
+    }
+    .login-footer {
+        position: absolute;
+        padding-top: 5rem;
+        padding-left: 50rem;
+    }
+    .login-header {
+        display: flex;
+        padding-top: 5rem;
+        justify-content: space-between;
+    }
+  }

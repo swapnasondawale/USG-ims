@@ -1,0 +1,190 @@
+.page-container {
+    padding: 10rem;
+}
+
+.reg-card {
+    margin-top: -35rem;
+    margin-left: 30rem;
+    min-width: 50%;
+    height: 71rem;
+    position: absolute;
+    border: 1px solid;
+    border-radius: 22px;
+    border-color: black;
+    background: white;
+}
+
+.login-carousel-card {
+    max-width: 80%;
+    height: 30rem;
+    border: 1px solid;
+    border-radius: 22px;
+    border-color: black;
+    background: rgba(0,0,0,0.2);
+}
+
+.card-carousel {
+    display: flex;
+    flex-direction: row;
+    /* padding-top: 5rem; */
+    overflow-y: hidden;
+}
+
+.title {
+    height: 43px;
+    width: 164px;
+    color: #2C376A;
+    font-family: "SF Pro Rounded";
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 43px;
+    /* padding-top: 4rem; */
+    padding-left: 4rem;
+}
+
+.normal-text {
+    color: #72809D;
+    font-family: "SF Pro Rounded";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 24px;
+    padding-top: 2rem;
+}
+
+.login-header-reg {
+    display: flex;
+    padding-top: 0rem;
+    justify-content: space-between;
+}
+
+.login-body-reg {
+    align-items: flex-start;
+    display: flex;
+    padding-left: 4rem;
+    /* padding-top: 2rem; */
+    flex-direction: column;
+}
+
+.input-fields {
+    padding-top: 3rem;
+}
+
+.login-footer-reg {
+    position: absolute;
+    padding-top: 0rem;
+    padding-left: 25rem;
+}
+
+.button-shadow-reg {
+    display: flex;
+    height: 4.6rem;
+    width: 16.75rem;
+    margin-left: 33px;
+    background-color: #F8C553;
+    position: absolute;
+    border-radius: 12px;
+    z-index: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 556px;
+}
+
+.selector {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+/* .selector-office {
+    height: 84px;
+    align-items: center;
+    width: 262px;
+    opacity: 0.6;
+    border-radius: 12px;
+    background-color: rgba(228,230,234,0.2);
+    box-shadow: inset -4px -4px 5px 0 rgba(255,255,255,0.3), inset 1px 1px 5px 1px rgba(202,214,220,0.5), inset 0 4px 10px 0 rgba(255,255,255,0.3), inset 0 0 3px 0 rgba(202,214,220,0.6);
+}
+
+.selector-company {
+    height: 84px;
+    width: 262px;
+    opacity: 0.6;
+    border-radius: 12px;
+    background-color: rgba(228,230,234,0.2);
+    box-shadow: inset -4px -4px 5px 0 rgba(255,255,255,0.3), inset 1px 1px 5px 1px rgba(202,214,220,0.5), inset 0 4px 10px 0 rgba(255,255,255,0.3), inset 0 0 3px 0 rgba(202,214,220,0.6);
+    margin-left:4rem;
+
+}
+
+.selector-inspector {
+    margin-top:2rem;
+    height: 84px;
+    width: 262px;
+    opacity: 0.6;
+    border-radius: 12px;
+    background-color: rgba(228,230,234,0.2);
+    box-shadow: inset -4px -4px 5px 0 rgba(255,255,255,0.3), inset 1px 1px 5px 1px rgba(202,214,220,0.5), inset 0 4px 10px 0 rgba(255,255,255,0.3), inset 0 0 3px 0 rgba(202,214,220,0.6);
+
+} */
+
+@media only screen and (max-width: 600px) {
+    .login-carousel-card {
+        width: auto;
+        height: auto;
+        border: 1px solid;
+        padding: 0px;
+        border-radius: 22px;
+        border-color: black;
+        background: rgba(0,0,0,0.2);
+    }
+    .page-container {
+        padding: 0rem;
+        /* background-image: url('../../../assets/images/background.png');
+        height: auto;
+        width: 100%; */
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .page-container {
+        padding: 5rem 0rem;
+        /* background-image: url('../../../assets/images/background.png');
+        height: auto;
+        width: 100%; */
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .page-container {
+        padding: 5rem;
+        /* background-image: url('../../../assets/images/background.png');
+        height: auto;
+        width: 100%; */
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .login-carousel-card {
+        max-width: 80%;
+        height: auto;
+        border: 1px solid;
+        padding: 0px;
+        border-radius: 22px;
+        border-color: black;
+        background: rgba(0,0,0,0.2);
+    }
+  }
+

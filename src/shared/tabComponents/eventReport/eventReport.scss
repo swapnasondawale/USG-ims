@@ -1,0 +1,37 @@
+.eventReport {
+    padding: 0;
+}
+.eventReportContent {
+    background-color: rgba(0, 0, 0, 0.08);
+    margin-top: 25px;
+    padding-left: 30px;
+    .eventName {
+        font-size: 14px;
+        padding-top: 18px;
+        white-space: nowrap;
+    }
+    .eventA {
+        padding-left: 30px;
+        font-size: 14px;
+        padding-top: 18px;
+        white-space: nowrap;
+    }
+    .exportEvent {
+        padding-top: 20px;
+        font-size: 14px;
+        text-align: center !important;
+    }
+    .eventType {
+        display: flex;
+        height: 65px;
+        padding-top: 12px;
+        .eventDropdown {
+            width: 55%;
+        }
+        .eventSelectName {
+            padding-top: 7px;
+            padding-right: 10px;
+            font-size: 14px;
+        }
+    }
+}

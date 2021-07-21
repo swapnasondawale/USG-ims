@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="370px" height="420px" viewBox="0 0 370 420" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>93D45FBC-9DE6-4263-96D9-A569CDFF2FEB</title>
+    <defs>
+        <path d="M34.6124502,-1.39838442e-15 L287.38755,-4.15283863e-16 C299.423053,2.41291884e-16 303.787417,1.25314575 308.187417,3.6062915 C312.587417,5.95943725 316.040563,9.412583 318.393708,13.812583 C320.746854,18.212583 322,22.5769472 322,34.6124502 L322,287.38755 C322,299.423053 320.746854,303.787417 318.393708,308.187417 C316.040563,312.587417 312.587417,316.040563 308.187417,318.393708 C303.787417,320.746854 299.423053,322 287.38755,322 L34.6124502,322 C22.5769472,322 18.212583,320.746854 13.812583,318.393708 C9.412583,316.040563 5.95943725,312.587417 3.6062915,308.187417 C1.25314575,303.787417 5.41667744e-16,299.423053 -9.32256277e-16,287.38755 L-8.81412002e-16,34.6124502 C5.12125756e-16,22.5769472 1.25314575,18.212583 3.6062915,13.812583 C5.95943725,9.412583 9.412583,5.95943725 13.812583,3.6062915 C18.212583,1.25314575 22.5769472,8.12501616e-16 34.6124502,-1.39838442e-15 Z" id="path-1"></path>
+        <filter x="-22.2%" y="-15.1%" width="144.5%" height="160.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="13.5" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="74" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.6 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-3">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.882353 0 0 0 0 0.909804 0 0 0 0 0.945098 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-4">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.752941 0 0 0 0 0.831373 0 0 0 0 0.890196 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-5">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.752941 0 0 0 0 0.831373 0 0 0 0 0.890196 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-6">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.752941 0 0 0 0 0.831373 0 0 0 0 0.890196 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-7">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Aureate-Back-Office" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0200_-Inspector-Signup_Blank" transform="translate(-262.000000, -424.000000)">
+            <g id="Group-16" transform="translate(200.000000, 137.000000)">
+                <g id="Group-14" transform="translate(80.000000, 80.000000)">
+                    <g id="Block" transform="translate(6.000000, 207.000000)">
+                        <g id="Color:">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="Tint:" transform="translate(38.581353, 167.185862)" filter="url(#filter-3)">
+                            <g>
+                                <g id="Tile" transform="translate(0.000000, 23.148812)" filter="url(#filter-4)">
+                                    <g transform="translate(0.000000, 0.000000)">
+                                        <rect id="Color:" fill="#E1E8F1" x="0" y="0" width="115.943992" height="12.8604509" rx="6.43022547"></rect>
+                                    </g>
+                                </g>
+                                <g id="Tile" filter="url(#filter-5)">
+                                    <g>
+                                        <rect id="Color:" fill="#E1E8F1" x="0" y="0" width="173.915988" height="12.8604509" rx="6.43022547"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="#05-Content/Round/Colored" transform="translate(38.581353, 38.581353)">
+                            <circle id="Color:" fill="#FFFFFF" cx="51.4418038" cy="51.4418038" r="51.4418038"></circle>
+                            <g filter="url(#filter-6)" id="Tint:">
+                                <g>
+                                    <g id="Color:-2" opacity="0.200000003" fill="#E1E8F1">
+                                        <circle id="Color:" cx="51.4418038" cy="51.4418038" r="51.4418038"></circle>
+                                    </g>
+                                    <g id="Icon:" transform="translate(41.796466, 41.796466)" fill="#E1E8F1">
+                                        <path d="M9.64517285,17.1756219 L5.39879731,19.1401142 C4.55337021,19.5312325 3.56376992,19.1340687 3.18846319,18.253024 C3.06967816,17.9741724 3.02310663,17.6677434 3.05339155,17.3642867 L3.53400199,12.5485396 L0.428987136,8.94691559 C-0.189202114,8.22985453 -0.132550306,7.12630736 0.555522489,6.48207401 C0.77329835,6.27817339 1.03855663,6.13732347 1.32485242,6.0735663 L5.86826155,5.06176326 L8.19563237,0.871344853 C8.6589975,0.0370584729 9.68361053,-0.247807378 10.4841696,0.235079167 C10.7375475,0.387913336 10.9480577,0.607292217 11.0947133,0.871344853 L13.4220841,5.06176326 L17.9654933,6.0735663 C18.8700579,6.27501002 19.4466518,7.20250041 19.2533517,8.14517405 C19.192172,8.44353139 19.0570162,8.71996491 18.8613586,8.94691559 L15.7563437,12.5485396 L16.2369541,17.3642867 C16.3326407,18.3230722 15.6643823,19.1811586 14.7443572,19.2808764 C14.4531681,19.3124372 14.1591271,19.2639036 13.8915484,19.1401142 L9.64517285,17.1756219 Z" id="Color:"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g transform="translate(38.581353, 238.407069)">
+                            <g id="#04-UI/Button-#01">
+                                <g id="Tile" fill="#F8C452">
+                                    <rect id="Color:" x="0" y="0" width="244.837294" height="45.0115783" rx="12.8604509"></rect>
+                                </g>
+                                <g id="System-Elements/Text/Medium-text" opacity="0.300000012" transform="translate(73.451188, 16.075564)">
+                                    <g filter="url(#filter-7)" id="Tile">
+                                        <g transform="translate(0.000000, 0.000000)">
+                                            <rect id="Color:" fill="#FFFFFF" x="0" y="0" width="97.9349177" height="12.8604509" rx="6.43022547"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                            <g transform="translate(116.619869, 16.075564)" id="spacer">
+                                <rect x="0" y="3.55271368e-15" width="12.8604509" height="12.8604509" rx="6.43022547"></rect>
+                            </g>
+                        </g>
+                        <g id="#07-Icon/Icon-Large" transform="translate(264.127971, 32.954906)" fill="#E1E8F1">
+                            <path d="M12.8602305,22.3283085 L7.19839641,24.8821485 C6.07116028,25.3906022 4.75169322,24.8742893 4.25128425,23.7289313 C4.09290422,23.3664241 4.03080884,22.9680665 4.07118873,22.5735727 L4.71200266,16.3131015 L0.571982848,11.6309903 C-0.252269485,10.6988109 -0.176733742,9.26419957 0.740696652,8.42669622 C1.03106447,8.1616254 1.38474217,7.97852052 1.76646989,7.89563618 L7.82434873,6.58029223 L10.9275098,1.13274831 C11.54533,0.0481760148 12.9114807,-0.322149591 13.9788928,0.305602918 C14.3167301,0.504287336 14.5974103,0.789479883 14.7929511,1.13274831 L17.8961122,6.58029223 L23.953991,7.89563618 C25.1600772,8.15751303 25.9288691,9.36325053 25.6711356,10.5887263 C25.5895627,10.9765908 25.4093549,11.3359544 25.1484781,11.6309903 L21.0084583,16.3131015 L21.6492722,22.5735727 C21.7768543,23.8199938 20.8858431,24.9355062 19.6591429,25.0651393 C19.2708908,25.1061684 18.8788361,25.0430747 18.5220645,24.8821485 L12.8602305,22.3283085 Z" id="Color:"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

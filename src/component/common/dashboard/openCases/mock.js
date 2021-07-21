@@ -1,0 +1,202 @@
+export const responseList = [
+
+    {
+        "policyNumber": "Testing 1",
+        "policyType": "Physical",
+        "policySubType": "$2320.00",
+        "coverageId": "General Liability",
+        "zipCode": '212123',
+        "tenantId": "Tokio Insurance",
+        "id": 13,
+        "createdDate": "2021-06-22T14:12:39.427",
+        "isValid": "Overdue"
+    },
+    {
+        "policyNumber": "Testing 1",
+        "policyType": "Physical",
+        "policySubType": "$2320.00",
+        "coverageId": "General Liability",
+        "zipCode": '212123',
+        "tenantId": "Tokio Insurance",
+        "id": 14,
+        "createdDate": "2021-06-22T14:12:39.427",
+        "isValid": "Overdue"
+    },
+    {
+        "policyNumber": "Testing 1",
+        "policyType": "Physical",
+        "policySubType": "$2320.00",
+        "coverageId": "General Liability",
+        "zipCode": '212123',
+        "tenantId": "Tokio Insurance",
+        "id": '',
+        "parentId": 13,
+        "createdDate": "2021-06-22T14:12:39.427",
+        "isValid": "Overdue"
+    },
+    {
+        "policyNumber": "Testing 1",
+        "policyType": "Physical",
+        "policySubType": "$2320.00",
+        "coverageId": "General Liability",
+        "zipCode": '212123',
+        "tenantId": "Tokio Insurance",
+        "id": '',
+        "parentId": 13,
+        "createdDate": "2021-06-22T14:12:39.427",
+        "isValid": "Overdue"
+    },
+    {
+        "policyNumber": "Testing 1",
+        "policyType": "Physical",
+        "policySubType": "$2320.00",
+        "coverageId": "General Liability",
+        "zipCode": '212123',
+        "tenantId": "Tokio Insurance",
+        "id": 17,
+        "createdDate": "2021-06-22T14:12:39.427",
+        "isValid": "Overdue"
+    },
+    {
+        "policyNumber": "Testing 1",
+        "policyType": "Physical",
+        "policySubType": "$2320.00",
+        "coverageId": "General Liability",
+        "zipCode": '212123',
+        "tenantId": "Tokio Insurance",
+        "id": 16,
+        "createdDate": "2021-06-22T14:12:39.427",
+        "isValid": "Overdue"
+    },
+    {
+        "policyNumber": "Testing 1",
+        "policyType": "Physical",
+        "policySubType": "$2320.00",
+        "coverageId": "General Liability",
+        "zipCode": '212123',
+        "tenantId": "Tokio Insurance",
+        "id": '',
+        "parentId": 16,
+        "createdDate": "2021-06-22T14:12:39.427",
+        "isValid": "Overdue"
+    },
+    {
+        "policyNumber": "Testing 1",
+        "policyType": "Physical",
+        "policySubType": "$2320.00",
+        "coverageId": "General Liability",
+        "zipCode": '212123',
+        "tenantId": "Tokio Insurance",
+        "id": '',
+        "parentId": 16,
+        "createdDate": "2021-06-22T14:12:39.427",
+        "isValid": "Overdue"
+    },
+    {
+        "policyNumber": "Testing 1",
+        "policyType": "Physical",
+        "policySubType": "$2320.00",
+        "coverageId": "General Liability",
+        "zipCode": '212123',
+        "tenantId": "Tokio Insurance",
+        "id": '',
+        "parentId": 16,
+        "createdDate": "2021-06-22T14:12:39.427",
+        "isValid": "Overdue"
+    },
+    {
+        "policyNumber": "Testing 1",
+        "policyType": "Physical",
+        "policySubType": "$2320.00",
+        "coverageId": "General Liability",
+        "zipCode": '212123',
+        "tenantId": "Tokio Insurance",
+        "id": 20,
+        "createdDate": "2021-06-22T14:12:39.427",
+        "isValid": "Overdue"
+    },
+    {
+        "policyNumber": "Testing 1",
+        "policyType": "Physical",
+        "policySubType": "$2320.00",
+        "coverageId": "General Liability",
+        "zipCode": '212123',
+        "tenantId": "Tokio Insurance",
+        "id": '',
+        "parentId": 20,
+        "createdDate": "2021-06-22T14:12:39.427",
+        "isValid": "Overdue"
+    },
+    {
+        "policyNumber": "Testing 1",
+        "policyType": "Physical",
+        "policySubType": "$2320.00",
+        "coverageId": "General Liability",
+        "zipCode": '212123',
+        "tenantId": "Tokio Insurance",
+        "id": '',
+        "parentId": 20,
+        "createdDate": "2021-06-22T14:12:39.427",
+        "isValid": "Overdue"
+    },
+    {
+        "policyNumber": "Testing 1",
+        "policyType": "Physical",
+        "policySubType": "$2320.00",
+        "coverageId": "General Liability",
+        "zipCode": '212123',
+        "tenantId": "Tokio Insurance",
+        "id": '',
+        "parentId": 20,
+        "createdDate": "2021-06-22T14:12:39.427",
+        "isValid": "Overdue"
+    },
+    {
+        "policyNumber": "Testing 1",
+        "policyType": "Physical",
+        "policySubType": "$2320.00",
+        "coverageId": "General Liability",
+        "zipCode": '212123',
+        "tenantId": "Tokio Insurance",
+        "id": 21,
+        "createdDate": "2021-06-22T14:12:39.427",
+        "isValid": "Overdue"
+    },
+    {
+        "policyNumber": "Testing 1",
+        "policyType": "Physical",
+        "policySubType": "$2320.00",
+        "coverageId": "General Liability",
+        "zipCode": '212123',
+        "tenantId": "Tokio Insurance",
+        "id": '',
+        "parentId": 21,
+        "createdDate": "2021-06-22T14:12:39.427",
+        "isValid": "Overdue"
+    },
+    {
+        "policyNumber": "Testing 1",
+        "policyType": "Physical",
+        "policySubType": "$2320.00",
+        "coverageId": "General Liability",
+        "zipCode": '212123',
+        "tenantId": "Tokio Insurance",
+        "id": '',
+        "parentId": 21,
+        "createdDate": "2021-06-22T14:12:39.427",
+        "isValid": "Overdue"
+    },
+    {
+        "policyNumber": "Testing 1",
+        "policyType": "Physical",
+        "policySubType": "$2320.00",
+        "coverageId": "General Liability",
+        "zipCode": '212123',
+        "tenantId": "Tokio Insurance",
+        "id": '',
+        "parentId": 21,
+        "createdDate": "2021-06-22T14:12:39.427",
+        "isValid": "Overdue"
+    }
+
+]

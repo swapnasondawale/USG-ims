@@ -1,0 +1,27 @@
+.visitorReport {
+    padding: 0;
+}
+.visitorReportContent {
+    background-color: rgba(0, 0, 0, 0.08);
+    margin-top: 25px;
+    .export {
+        padding-top: 18px;
+        text-align: center !important;
+    }
+    .visitorType {
+        display: flex;
+        height: 65px;
+        padding-top: 12px;
+        white-space: nowrap;
+        .reportDropdown {
+            width: 60%;
+        }
+        .selectName {
+            padding-top: 7px;
+            padding-right: 15px;
+        }
+    }
+}
+.MuiPaper-root {
+    padding-right: 15px !important;
+}
