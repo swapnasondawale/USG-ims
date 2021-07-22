@@ -6,7 +6,6 @@ import Main from './Main';
 
 function App() {
   // const { t, i18n } = useTranslation();
-
   return (
     <div className="App">
 

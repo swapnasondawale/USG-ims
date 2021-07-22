@@ -11,11 +11,9 @@ import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import store from '../../../store/store';
 import { Grid } from '@material-ui/core';
-
-
+import { blue } from '@material-ui/core/colors';
 
 function Login() {
-
     const history = useHistory();
     const [email, setEmail] = React.useState('');
 
@@ -68,33 +66,33 @@ function Login() {
     };
 
     return (
-        <div className="main-container">
-            <div className="black-image"> </div>
-            {/* <div className="background-image">
-      
-        <img src={BackgroundImage} width='100%'
-    height= '100%'></img>
-    
-      </div> */}
-            <Grid className="page-container">
-                {/* <div><img src={SphareSvg} className="sphare-icon" /></div> */}
-
-                <Grid item xs={6} className="login-carousel-card">
-                    {/* <div className="head-container">
+        <Grid container className="main-container">
+            {/* <div><img src={SphareSvg} className="icon-sphare" /></div>  */}
+            <Grid item xs={6} container className="sub-main_containerOne">
+                <div className='inner-one'>
+                    <div className="head-container">
                         <h1>hello</h1>
-                        <h1>hello</h1>
-                        <h1>hello</h1>
-                    </div> */}
-                    <div className="card-carousel">
-                        <Carousel />
+                        <h3>hello</h3>
+                        <h6>hello</h6>
                     </div>
-                </Grid>
-                {/* <div><img src={CubeSvg} className="cube-icon" /></div> */}
-                <Grid item xs={6} className="login-card">
-                    <div><img src={LogoSvg} className="logo-login" /></div>
-                    <div className="login-header">
-                        <span className="title">Welcome!</span>
-                        <div>
+                    <div className="carousel-container">
+                        <Carousel
+                            height='auto'
+                        />
+                    </div>
+                </div>
+            </Grid>
+            <div><img src={CubeSvg} className="icon-cube" /></div>
+            <div><img src={SphareSvg} className="icon-sphare" /></div> 
+            {/* <div><img src={CubeSvg} className="cube-icon" /></div> */}
+            <Grid item xs={6} container className="sub-main-containerTwo">
+                <div className="inner-two">
+                    <Grid item className="logo-container">
+                        <img src={LogoSvg} className="logo-login" />
+                    </Grid>
+                    <Grid item className="welcome-container">
+                        <span className="head-title">Welcome!</span>
+                        <div className="header-register">
                             <span className="normal-text">Not a member?</span>
                             <ButtonComponent
                                 onClickFun={() => navigateToRegistation()}
@@ -106,19 +104,25 @@ function Login() {
                                 value='Register Now'
                             />
                         </div>
-                    </div>
-                    <div className="login-body">
-                        <span className="normal-text">Access best online insurence portal available.</span>
-                        <span className="input-fields">
-                            <InputField onChangeText={handleEmail} inputValue={email}  width={90} label='Email' inputType='' inputIcon='mail' inputPlaceholder='Email' />
+                    </Grid>
+                    {/* <Grid item >
+                        <div className="login-form" >
+                            <span className="sub-text">Access best online insurence portal available.</span>
+                        </div>
+                    </Grid> */}
+                    <Grid item className="login-container">
+                        <div className="login-form" >
+                            <span className="sub-text">Access best online insurence portal available.</span>
+                        </div>
+                        <span className="input-container">
+                            <InputField onChangeText={handleEmail} inputValue={email} width={95} label='Email' inputType='' inputIcon='mail' inputPlaceholder='Email' />
                         </span>
-                        <span className="input-fields">
-                            <InputField onChangeText={handlePassword} inputValue={password} fullWidth width={90} label='Password' inputType='password' inputIcon='password' inputPlaceholder='Password' />
+                        <span className="input-container">
+                            <InputField onChangeText={handlePassword} inputValue={password} fullWidth width={95} label='Password' inputType='password' inputIcon='password' inputPlaceholder='Password' />
                         </span>
-                    </div>
-
-                    <div className="login-footer">
-                        <div className="button-shadow">
+                    </Grid>
+                    <Grid item className="button-footer">
+                        <div className='shadow-btn'>
 
                         </div>
                         <ButtonComponent
@@ -132,11 +136,10 @@ function Login() {
                             value='Login'
                             borderShadow={`0 2px 0 0 rgba(255,236,192,0.79)`}
                         />
-                    </div>
-
-                </Grid>
+                    </Grid>
+                </div>
             </Grid>
-        </div>
+        </Grid>
     )
 }
 
