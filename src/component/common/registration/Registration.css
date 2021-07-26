@@ -1,48 +1,91 @@
-.page-container {
-    padding: 10rem;
+.register-main-container {
+    width: 100vw;
+    height: 100vh;
+    margin:auto;
+    padding: 100px 60px;
+    position: relative;
+    /* background-image: url(../../../assets/images/background.png); */
 }
-
-.reg-card {
-    margin-top: -35rem;
-    margin-left: 30rem;
-    min-width: 50%;
-    height: 71rem;
-    position: absolute;
-    border: 1px solid;
+.sub-main_containerOne {
+    width: 100%;
+    height: auto;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px; 
+    z-index: 1;
+}
+.inner-one {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom-left-radius: 22px;
+    border-top-left-radius: 22px;
+    border-bottom: 1.5px solid black;
+    border-left: 1.5px solid black;
+    border-top: 1.5px solid black;
+    background-color: darkgrey;
+}
+.head-container {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    text-align: left;
+    line-height: 0;
+    padding: 0px 20px;
+}
+.carousel-container {
+    width: 100%;
+    height: auto;
+    padding: 0%;
+}
+.sub-main-containerTwo {
+    padding-right: 20px;
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
     border-radius: 22px;
-    border-color: black;
+}
+.inner-two {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+}
+.logo-container {
     background: white;
+    width: 50%;
+    padding: 5% 0%;
+    display: flex;
+    align-items: flex-start;
 }
-
-.login-carousel-card {
-    max-width: 80%;
-    height: 30rem;
-    border: 1px solid;
-    border-radius: 22px;
-    border-color: black;
-    background: rgba(0,0,0,0.2);
-}
-
-.card-carousel {
+.welcome-container {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    /* padding-top: 5rem; */
-    overflow-y: hidden;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 0%;
 }
-
-.title {
-    height: 43px;
-    width: 164px;
+.head-title {
     color: #2C376A;
     font-family: "SF Pro Rounded";
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 500;
     letter-spacing: 1px;
-    line-height: 43px;
-    /* padding-top: 4rem; */
-    padding-left: 4rem;
 }
-
+.header-register {
+    display: block;
+    justify-content: center;
+}
 .normal-text {
     color: #72809D;
     font-family: "SF Pro Rounded";
@@ -52,139 +95,83 @@
     line-height: 24px;
     padding-top: 2rem;
 }
+.login-form {
+    text-align: left;
+}
+.sub-text {
+    color: #72809D;
+    font-family: "SF Pro Rounded";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 24px;
+    padding-top: 2rem;
+}
+.registration-container {
+    width: 100% !important;
+    height: auto;
+    display: grid;
 
-.login-header-reg {
-    display: flex;
-    padding-top: 0rem;
-    justify-content: space-between;
 }
 
-.login-body-reg {
+.input-container-reg {
+    padding: 5% 0%;
     align-items: flex-start;
+    font-family: "SF Pro Rounded";
+}
+/* .select-role-container {
+
+} */
+.select-role-text {
+    color: #72809D;
+    font-family: "SF Pro Rounded";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 24px;
+    padding-top: 2rem;
     display: flex;
-    padding-left: 4rem;
-    /* padding-top: 2rem; */
-    flex-direction: column;
+    align-items: center;
 }
+/* .select-role-box {
 
-.input-fields {
-    padding-top: 3rem;
+} */
+.selector {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 2rem;
 }
-
-.login-footer-reg {
+.button-footer {
     position: absolute;
-    padding-top: 0rem;
-    padding-left: 25rem;
+    right: 0%;
+    bottom: -2%;
 }
-
-.button-shadow-reg {
+.shadow-btn {
     display: flex;
     height: 4.6rem;
     width: 16.75rem;
     margin-left: 33px;
-    background-color: #F8C553;
     position: absolute;
+    background-color: #F8C553;
     border-radius: 12px;
     z-index: 0;
 }
-
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 556px;
+@media only screen and (min-width:426px) and (max-width:768px) {
+    .head-title {
+        color: #2C376A;
+        font-family: "SF Pro Rounded";
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+    
+}
+@media only screen and (min-width:426px) and (max-width:768px) {
+   
+    
 }
 
-.selector {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 2rem;
-}
-/* .selector-office {
-    height: 84px;
-    align-items: center;
-    width: 262px;
-    opacity: 0.6;
-    border-radius: 12px;
-    background-color: rgba(228,230,234,0.2);
-    box-shadow: inset -4px -4px 5px 0 rgba(255,255,255,0.3), inset 1px 1px 5px 1px rgba(202,214,220,0.5), inset 0 4px 10px 0 rgba(255,255,255,0.3), inset 0 0 3px 0 rgba(202,214,220,0.6);
-}
 
-.selector-company {
-    height: 84px;
-    width: 262px;
-    opacity: 0.6;
-    border-radius: 12px;
-    background-color: rgba(228,230,234,0.2);
-    box-shadow: inset -4px -4px 5px 0 rgba(255,255,255,0.3), inset 1px 1px 5px 1px rgba(202,214,220,0.5), inset 0 4px 10px 0 rgba(255,255,255,0.3), inset 0 0 3px 0 rgba(202,214,220,0.6);
-    margin-left:4rem;
 
-}
-
-.selector-inspector {
-    margin-top:2rem;
-    height: 84px;
-    width: 262px;
-    opacity: 0.6;
-    border-radius: 12px;
-    background-color: rgba(228,230,234,0.2);
-    box-shadow: inset -4px -4px 5px 0 rgba(255,255,255,0.3), inset 1px 1px 5px 1px rgba(202,214,220,0.5), inset 0 4px 10px 0 rgba(255,255,255,0.3), inset 0 0 3px 0 rgba(202,214,220,0.6);
-
-} */
-
-@media only screen and (max-width: 600px) {
-    .login-carousel-card {
-        width: auto;
-        height: auto;
-        border: 1px solid;
-        padding: 0px;
-        border-radius: 22px;
-        border-color: black;
-        background: rgba(0,0,0,0.2);
-    }
-    .page-container {
-        padding: 0rem;
-        /* background-image: url('../../../assets/images/background.png');
-        height: auto;
-        width: 100%; */
-    }
-  }
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-    .page-container {
-        padding: 5rem 0rem;
-        /* background-image: url('../../../assets/images/background.png');
-        height: auto;
-        width: 100%; */
-    }
-  }
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-    .page-container {
-        padding: 5rem;
-        /* background-image: url('../../../assets/images/background.png');
-        height: auto;
-        width: 100%; */
-    }
-  } 
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    .example {background: orange;}
-  } 
-  
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-    .login-carousel-card {
-        max-width: 80%;
-        height: auto;
-        border: 1px solid;
-        padding: 0px;
-        border-radius: 22px;
-        border-color: black;
-        background: rgba(0,0,0,0.2);
-    }
-  }
 

@@ -10,6 +10,7 @@ import * as LoginActions from '../../../store/actions/LoginActions';
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import store from '../../../store/store';
+import { Grid } from '@material-ui/core';
 
 
 function Registration() {
@@ -117,82 +118,82 @@ function Registration() {
     };
 
     return (
-        <div className="main-container">
-            <div className="black-image1"> </div>
-            {/* <div className="background-image">
-      
-        <img src={BackgroundImage} width='100%'
-    height= '100%'></img>
-    
-      </div> */}
-            <div className="page-container">
-                <div><img src={SphareSvg} className="sphare-icon" /></div>
-
-                <div className="login-carousel-card">
-                    <div className="card-carousel">
-
-                        <Carousel />
-
+        <Grid container className='register-main-container'>
+            <Grid item xs={6} container className="sub-main_containerOne">
+                <div className='inner-one'>
+                    <div className="head-container">
+                        <h1>hello</h1>
+                        <h3>hello</h3>
+                        <h6>hello</h6>
+                    </div>
+                    <div className="carousel-container">
+                        <Carousel
+                            height='auto'
+                        />
                     </div>
                 </div>
-                <div><img src={CubeSvg} className="cube-icon" /></div>
-
-                <div className="reg-card">
-                    <div><img src={LogoSvg} className="logo-login" /></div>
-                    <div className="login-header-reg">
-                        <span className="title"></span>
-                        <div>
-                            <span className="normal-text">Already a member?</span>
+            </Grid>
+            <Grid item xs={6} container className="sub-main-containerTwo">
+                <div className="inner-two">
+                    <Grid item className="logo-container">
+                        <img src={LogoSvg} className="logo-login" />
+                    </Grid>
+                    <Grid item className="welcome-container">
+                        <span className="head-title">Welcome!</span>
+                        <div className="header-register">
+                            <span className="normal-text">Not a member?</span>
                             <ButtonComponent
                                 onClickFun={() => navigateToLogin()}
                                 width={153}
-                                height={46}
                                 border='1'
+                                height={46}
                                 borderColor='rgba(248,197,83,0.6)'
                                 backgroudColor='rgba(248,197,83,0.1)'
                                 value='Login'
                             />
                         </div>
-                    </div>
-                    <div className="login-body-reg">
-                        {/* <span className="normal-text">Access best online insurence portal available.</span> */}
-                        <span className="input-fields">
-                            <InputField onChangeText={handleFirstName} inputValue={firstName} width={43} label='First Name' inputType='' inputIcon='user' inputPlaceholder='First Name' />
+                    </Grid>
+                    <Grid item >
+                        <div className="login-form" >
+                            <span className="sub-text">Access best online insurence portal available.</span>
+                        </div>
+                    </Grid>
+                    <Grid item className="registration-container ">
+                        <span className="input-container-reg">
+                            <InputField onChangeText={handleFirstName} inputValue={firstName} width={100} label='First Name' inputType='' inputIcon='user' inputPlaceholder='First Name' />
                         </span>
-                        <span className="input-fields">
-                            <InputField onChangeText={handleLastName} inputValue={lastName} width={43} label='Last Name' inputType='' inputIcon='user' inputPlaceholder='Last Name' />
+                        <span className="input-container-reg">
+                            <InputField onChangeText={handleLastName} inputValue={lastName} width={100} label='Last Name' inputType='' inputIcon='user' inputPlaceholder='Last Name' />
                         </span>
-                        <span className="input-fields">
-                            <InputField onChangeText={handleEmail} inputValue={email} width={43} label='Email' inputType='' inputIcon='mail' inputPlaceholder='Email' />
+                        <span className="input-container-reg">
+                            <InputField onChangeText={handleEmail} inputValue={email} width={100} label='Email' inputType='' inputIcon='mail' inputPlaceholder='Email' />
                         </span>
-                        <span className="input-fields">
-                            <InputField onChangeText={handlePassword} inputValue={password} width={43} label='Password' inputType='password' inputIcon='' inputPlaceholder='Password' />
+                        <span className="input-container-reg">
+                            <InputField onChangeText={handlePassword} inputValue={password} width={100} label='Password' inputType='password' inputIcon='' inputPlaceholder='Password' />
                         </span>
-                        <span className="input-fields">
-                            <InputField onChangeText={handleCPassword} inputValue={confirmPassword} width={43} label='Confirm Password' inputType='password' inputIcon='' inputPlaceholder='Confirm Password' />
+                        <span className="input-container-reg">
+                            <InputField onChangeText={handleCPassword} inputValue={confirmPassword} width={100} label='Confirm Password' inputType='password' inputIcon='' inputPlaceholder='Confirm Password' />
                         </span>
-                        <span className="input-fields">
-                            <InputField onChangeText={handlePhoneNumber} inputValue={phoneNumber} width={43} label='Phone Number' inputType='' inputIcon='phone' inputPlaceholder='Phone Number' />
+                        <span className="input-container-reg">
+                            <InputField onChangeText={handlePhoneNumber} inputValue={phoneNumber} width={100} label='Phone Number' inputType='' inputIcon='phone' inputPlaceholder='Phone Number' />
                         </span>
-                        <span className="normal-text">
+                    </Grid>
+                    <Grid item className="select-role-container">
+                        <span className="select-role-text">
                             Select Role
                         </span>
-                        <div className="wrapper">
+                        <div className="select-role-box">
                             <div className="selector">
                                 <SelectorBoxWithImage tabIndex={1}
                                     buttonName='Field Representative' boxShadow="inset -4px -4px 5px 0 rgba(255,255,255,0.3), inset 1px 1px 5px 1px rgba(202,214,220,0.5), inset 0 4px 10px 0 rgba(255,255,255,0.3), inset 0 0 3px 0 rgba(202,214,220,0.6)" iconName='representative' selectedButton={representative} borderColor={'#43A1F6'} backgroundColor='rgba(228,230,234,0.2)' />
                                 <SelectorBoxWithImage tabIndex={2} boxShadow="inset -4px -4px 5px 0 rgba(255,255,255,0.3), inset 1px 1px 5px 1px rgba(202,214,220,0.5), inset 0 4px 10px 0 rgba(255,255,255,0.3), inset 0 0 3px 0 rgba(202,214,220,0.6)" buttonName='Inspection Agency' iconName='agency' selectedButton={agency} borderColor={'#43A1F6'} backgroundColor='rgba(228,230,234,0.2)' />
-                            </div>
-                            <div className="selector">
                                 <SelectorBoxWithImage tabIndex={3} boxShadow="inset -4px -4px 5px 0 rgba(255,255,255,0.3), inset 1px 1px 5px 1px rgba(202,214,220,0.5), inset 0 4px 10px 0 rgba(255,255,255,0.3), inset 0 0 3px 0 rgba(202,214,220,0.6)" buttonName='Insurance Company' iconName='company' selectedButton={company} borderColor={'#43A1F6'} backgroundColor='rgba(228,230,234,0.2)' />
                             </div>
-
                         </div>
 
-                    </div>
-
-                    <div className="login-footer-reg">
-                        <div className="button-shadow-reg">
+                    </Grid>
+                    <Grid item className="button-footer">
+                        <div className='shadow-btn'>
 
                         </div>
                         <ButtonComponent
@@ -203,14 +204,13 @@ function Registration() {
                             fontSize={20}
                             borderColor='rgba(255,236,192,0.79)'
                             backgroudColor='#F8C553'
-                            value='Register Now'
+                            value='Login'
                             borderShadow={`0 2px 0 0 rgba(255,236,192,0.79)`}
                         />
-                    </div>
-
+                    </Grid>
                 </div>
-            </div>
-        </div>
+            </Grid>
+        </Grid>
     )
 }
 

@@ -67,7 +67,6 @@ function Login() {
 
     return (
         <Grid container className="main-container">
-            {/* <div><img src={SphareSvg} className="icon-sphare" /></div>  */}
             <Grid item xs={6} container className="sub-main_containerOne">
                 <div className='inner-one'>
                     <div className="head-container">
@@ -84,7 +83,6 @@ function Login() {
             </Grid>
             <div><img src={CubeSvg} className="icon-cube" /></div>
             <div><img src={SphareSvg} className="icon-sphare" /></div> 
-            {/* <div><img src={CubeSvg} className="cube-icon" /></div> */}
             <Grid item xs={6} container className="sub-main-containerTwo">
                 <div className="inner-two">
                     <Grid item className="logo-container">
@@ -105,15 +103,15 @@ function Login() {
                             />
                         </div>
                     </Grid>
-                    {/* <Grid item >
+                    <Grid item >
                         <div className="login-form" >
                             <span className="sub-text">Access best online insurence portal available.</span>
                         </div>
-                    </Grid> */}
+                    </Grid>
                     <Grid item className="login-container">
-                        <div className="login-form" >
+                        {/* <div className="login-form" >
                             <span className="sub-text">Access best online insurence portal available.</span>
-                        </div>
+                        </div> */}
                         <span className="input-container">
                             <InputField onChangeText={handleEmail} inputValue={email} width={95} label='Email' inputType='' inputIcon='mail' inputPlaceholder='Email' />
                         </span>

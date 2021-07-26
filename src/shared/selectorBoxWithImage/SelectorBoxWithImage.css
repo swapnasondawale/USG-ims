@@ -7,6 +7,7 @@
     min-width: 150px;
     opacity: 0.6;
     border-radius: 12px;
+    margin: 1rem;
     /* background-color: rgba(228,230,234,0.2); */
     /* box-shadow: inset -4px -4px 5px 0 rgba(255,255,255,0.3), inset 1px 1px 5px 1px rgba(202,214,220,0.5), inset 0 4px 10px 0 rgba(255,255,255,0.3), inset 0 0 3px 0 rgba(202,214,220,0.6); */
     cursor: pointer;
@@ -29,7 +30,7 @@
 
 .selector-container {
     display: flex;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
     /* padding-top: 20px; */
     flex-direction: row;
 }
