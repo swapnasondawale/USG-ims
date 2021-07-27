@@ -133,6 +133,8 @@ function Registration() {
                     </div>
                 </div>
             </Grid>
+            {/* <div><img src={CubeSvg} className="cube-icon-container" /></div> */}
+            <div><img src={SphareSvg} className="sphare-icon-container" /></div> 
             <Grid item xs={6} container className="sub-main-containerTwo">
                 <div className="inner-two">
                     <Grid item className="logo-container">

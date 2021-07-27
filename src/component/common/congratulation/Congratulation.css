@@ -1,52 +1,104 @@
-.main-container {
+.main-congrate-container {
+    width: 100vw;
+    height: 100vh;
+    margin:auto;
+    padding: 100px 60px;
+    position: relative;
+    /* background-image: url(../../../assets/images/background.png); */
 }
-
-.page-container {
-    padding: 10rem;
+.sub-congrate_containerOne {
+    width: 100%;
+    height: auto;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px; 
+    z-index: 1;
 }
-
-.reg-card1 {
-    margin-top: -35rem;
-    margin-left: 30rem;
-    min-width: 50%;
-    height: 62.5rem;
-    position: absolute;
-    border: 1px solid;
+.inner-one-congrate {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom-left-radius: 22px;
+    border-top-left-radius: 22px;
+    border-bottom: 1.5px solid black;
+    border-left: 1.5px solid black;
+    border-top: 1.5px solid black;
+    background-color: darkgrey;
+    margin-left: 1rem;
+}
+.head-cogrates-container {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    text-align: left;
+    line-height: 0;
+    padding: 0px 20px;
+}
+.carousel-congrates-container {
+    width: 100%;
+    height: auto;
+    padding: 0%;
+}
+.sub-congrates-containerTwo {
+    padding-right: 20px;
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
     border-radius: 22px;
-    border-color: black;
+}
+.inner-congrate-two {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+}
+.logo-container {
     background: white;
+    width: 50%;
+    padding: 5% 0%;
+    display: flex;
+    align-items: flex-start;
 }
-
-.login-carousel-card {
-    max-width: 80%;
-    height: 30rem;
-    border: 1px solid;
-    border-radius: 22px;
-    border-color: black;
-    background: rgba(0,0,0,0.2);
-}
-
-.card-carousel {
+.congrates-container {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    /* padding-top: 5rem; */
-    overflow-y: hidden;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 0%;
 }
-
-.title {
-    height: 43px;
-    width: 164px;
+.congrates-title {
     color: #2C376A;
     font-family: "SF Pro Rounded";
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 500;
     letter-spacing: 1px;
-    line-height: 43px;
-    /* padding-top: 4rem; */
-    padding-left: 4rem;
 }
-
-.normal-text-cong {
+.header-register {
+    display: block;
+    justify-content: center;
+}
+.normal-text {
+    color: #72809D;
+    font-family: "SF Pro Rounded";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.congrates-text {
+    text-align: left;
+}
+.congrates-normal-text {
     display: flex;
     color: #72809D;
     font-family: "SF Pro Rounded";
@@ -54,125 +106,93 @@
     font-weight: 500;
     letter-spacing: 1px;
     line-height: 24px;
-    /* padding-top: 2rem; */
 }
-
-.login-header-cong {
-    display: flex;
-    padding-top: 5rem;
-    justify-content: space-between;
+.congrates-list-container {
+    border: 1px soid rgb(36, 35, 35);
 }
-
-.login-body-cong {
-    align-items: flex-start;
-    display: flex;
-    padding-left: 4rem;
-    /* padding-top: 2rem; */
-    flex-direction: column;
+.congrates-wrapper {
+    border: 1px soid red;
+    display: grid;
+    grid-template-columns: auto;
+    width: auto;
 }
-
-.input-fields {
-    padding-top: 3rem;
-}
-
-.login-footer-cong {
-    position: absolute;
-    padding-top: 11rem;
-    padding-left: 25rem;
-}
-
-.button-shadow-cong {
-    display: flex;
-    height: 4.6rem;
-    width: 16.75rem;
-    margin-left: 33px;
-    background-color: #F8C553;
-    position: absolute;
-    border-radius: 12px;
-    z-index: 0;
-}
-
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 556px;
-}
-
-.selector {
-    display: flex;
+.congrate-selector {
+    /* border: 1px solid green; */
+    /* display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; */
     margin-top: 2rem;
 }
-
-.list1 {
-    box-sizing: border-box;
-    height: 54px;
-    width: 411px;
+.congrates-list1 {
+    height: 60px;
+    width: 330px;
+    display: grid;
+    grid-template-columns: auto;
     border: 0.8px solid #D2E3E9;
     border-radius: 12px;
     background-color: rgba(255,255,255,0.2);
 }
-
-.icon-class {
-    width: 3rem;
-    margin-left: -20rem;
-    margin-top: 0.5rem;
-    color:blue;
+.congrates-icon-class {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: blue;
 }
-
-.text-class1 {
-    margin-left:3rem;
-    margin-top: -2.2rem;
-    height: 24px;
-  /* width: 224px; */
-  color: #2C376A;
-  font-family: "SF Pro Rounded";
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 24px;
-}
-
-.text-class {
-    margin-top: -2.2rem;
-    height: 24px;
-  /* width: 224px; */
-  color: #2C376A;
-  font-family: "SF Pro Rounded";
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 24px;
-}
-/* .selector-office {
-    height: 84px;
-    align-items: center;
-    width: 262px;
-    opacity: 0.6;
-    border-radius: 12px;
-    background-color: rgba(228,230,234,0.2);
-    box-shadow: inset -4px -4px 5px 0 rgba(255,255,255,0.3), inset 1px 1px 5px 1px rgba(202,214,220,0.5), inset 0 4px 10px 0 rgba(255,255,255,0.3), inset 0 0 3px 0 rgba(202,214,220,0.6);
-}
-
-.selector-company {
-    height: 84px;
-    width: 262px;
-    opacity: 0.6;
-    border-radius: 12px;
-    background-color: rgba(228,230,234,0.2);
-    box-shadow: inset -4px -4px 5px 0 rgba(255,255,255,0.3), inset 1px 1px 5px 1px rgba(202,214,220,0.5), inset 0 4px 10px 0 rgba(255,255,255,0.3), inset 0 0 3px 0 rgba(202,214,220,0.6);
+.congrates-text-class {
+    margin-top: -2.5rem;
     margin-left:4rem;
-
+    color: #2C376A;
+    font-family: "SF Pro Rounded";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: left;
 }
 
-.selector-inspector {
-    margin-top:2rem;
-    height: 84px;
-    width: 262px;
-    opacity: 0.6;
-    border-radius: 12px;
-    background-color: rgba(228,230,234,0.2);
-    box-shadow: inset -4px -4px 5px 0 rgba(255,255,255,0.3), inset 1px 1px 5px 1px rgba(202,214,220,0.5), inset 0 4px 10px 0 rgba(255,255,255,0.3), inset 0 0 3px 0 rgba(202,214,220,0.6);
+@media only screen and (min-width:426px) and (max-width:768px) {
+    .congrates-title {
+        color: #2C376A;
+        font-family: "SF Pro Rounded";
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+    .congrates-wrapper {
+        border: 1px soid red;
+        display: grid;
+        grid-template-columns: auto;
+        width: auto;
+    }
+    .congrates-list1 {
+        box-sizing: border-box;
+        height: 60px;
+        width: 300px;
+        border: 0.8px solid #D2E3E9;
+        border-radius: 12px;
+        background-color: rgba(255,255,255,0.2);
+        display: block;
+        grid-template-columns: auto;    
+        border: 0.8px solid #D2E3E9;
+        border-radius: 12px;
+        background-color: rgba(255,255,255,0.2);
+    }
+    .congrates-icon-class {
+        width: 3rem;
+        margin-left: -16rem;
+        margin-top: 0.5rem;
+        color:blue;
+    }
+    .congrates-text-class {
+        /* border: 1px solid green; */
+        margin-top: -2.5rem;
+        margin-left:3rem;
+        color: #2C376A;
+        font-family: "SF Pro Rounded";
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 24px;
+        text-align: left;
+    }
+}
 
-} */
